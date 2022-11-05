@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Weather from "./Weather";
 
@@ -7,6 +6,17 @@ function App() {
     <div className="App">
       <h1>Weather App</h1>
       <Weather />
+      <footer>
+        <a
+          href="https://github.com/teytap/mt-weather-react"
+          target="_blank"
+          rel="noreferrer"
+          class="github-link"
+        >
+          Open source code
+        </a>{" "}
+        by Mehtap Tataroğlu
+      </footer>
     </div>
   );
 }
